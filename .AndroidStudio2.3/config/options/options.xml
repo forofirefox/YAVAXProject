@@ -1,0 +1,50 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="AndroidInitConfigurator.V4" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V2" value="true" />
+    <property name="android-component-compatibility-check" value="1524174985951" />
+    <property name="MobileminApi" value="21" />
+    <property name="lastTip" value="7" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PALETTE,COMPONENT_TREE,PROPERTIES" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PALETTE,COMPONENT_TREE,PROPERTIES" />
+    <property name="newly.installed.api.level" value="23" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/YAVAX&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Jabax/app/src/main/res/layout/item_lista_amigos.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/CambiandoLeyaut/app/src/main/java/com/example/eduadogurrola/cambiandoleyaut/Primera.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/CambiandoLeyaut&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Jabax&#10;C:/Users/Public/Pictures&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/vistaschidas/app/src/main/java/com/example/eduadogurrola/vistaschidas/interfas.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/vistaschidas/app/src/main/res/layout/item_comtacto_cuadrado.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/RecuesCodeHigu/app/src/main/java/com/example/eduadogurrola/recuescodehigu/Consultas/Cmain.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/RecuesCodeHigu/app/src/main/java/com/example/eduadogurrola/recuescodehigu/Consultas/CalgoritmoCartas.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/RecuesCodeHigu/app/src/main/java/com/example/eduadogurrola/recuescodehigu/Consultas/AdaptadorLibre.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/RecuesCodeHigu&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Game/app/src/main/res/anim/anim_dentro.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Game/app/src/main/res/anim/zoom_interno.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Jabax/app/src/main/res/layout/activity_inicio.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Jabax/app/src/main/java/com/example/eduadogurrola/jabax/amigos/Adaptadorlistaamigos/Adaptaamigos.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/vistaschidas&#10;C:/Program Files&#10;C:/Program Files/Git/cmd/git.exe&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/PrubaGeolo/app/src/main/java/com/example/eduadogurrola/prubageolo/RecuperacionDatos/AlgoritmoJsonRespuesta.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/PrubaGeolo/app/src/main/java/com/example/eduadogurrola/prubageolo/RecuperacionDatos/AlgoritmoJson.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/PrubaGeolo&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/PrubaGeolo/app/src/main/java/com/example/eduadogurrola/prubageolo&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Celular/app/src/main/java/com/example/eduadogurrola/celular/Lista_contacotos/ConsultaContacto.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/vistaschidas/app/src/main/java/com/example/eduadogurrola/vistaschidas/BaseDatosSql/Contactobd.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/vistaschidas/app/src/main/java/com/example/eduadogurrola/vistaschidas/BaseDatosSql/HelperContactos.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Game&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/CambiandoLeyaut/app/src/main/java/com/example/eduadogurrola/cambiandoleyaut/Segunda.java&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/CambiandoLeyaut/app/src/main/res/values/strings.xml&#10;C:/Users/Eduado Gurrola/AndroidStudioProjects/Celular" />
+    <property name="NlScreenMode" value="BOTH" />
+    <property name="inspector.open.textAppearance" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.WIDTH" value="246" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.WIDTH" value="277" />
+    <property name="ColorChooser.RecentColors" value="41-63-139-255,,,246-247-255-255,,,40-40-40-255,,,242-252-255-255,,,101-99-111-255,,,50-82-81-255,,,255-227-81-255,,,200-175-64-255,,,54-130-200-255,,,249-255-251-255,,,133-200-26-255,,,77-191-200-255,,,16-10-19-255,,,136-137-95-255,,,246-255-252-255,,,254-255-253-255,,,104-132-200-255,,,43-200-193-255,,,0-198-255-255" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ResourceChooserGridMode" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.WIDTH" value="200" />
+    <property name="last.imported.location" value="$USER_HOME$/AndroidStudioProjects/CambiandoLeyaut" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="AndroidEnableDdms" value="true" />
+    <property name="android.resource_dialog_splitter" value="0.48117647" />
+    <property name="gradle.runner.text.console_str" value="true" />
+    <property name="com.android.tools.idea.uibuilder.surface.DesignSurface.error.panel.split" value="1.0" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="SAVED_COMPANY_DOMAIN" value="eduadogurrola.example.com" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="com.android.tools.idea.rendering.errors.ui.RenderErrorPanel.minimized" value="true" />
+    <property name="gradle.runner.text.console" value="true" />
+  </component>
+</application>

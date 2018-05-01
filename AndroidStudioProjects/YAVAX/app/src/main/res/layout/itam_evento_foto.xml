@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/mini"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/back"
+                        android:backgroundTint="@color/NegroBajo" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Nombre"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/NegroBajo"
+                    android:textSize="15dp"
+                    android:text="Selecciona el icono"
+                    android:layout_weight="8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <LinearLayout
+            android:background="@color/blanco"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:background="#7e000000"
+            android:id="@+id/iconos"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="400dp">
+
+
+
+        </android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:background="@color/blanco"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+   <LinearLayout
+       android:background="@color/blanco"
+       android:layout_width="match_parent"
+       android:layout_height="13dp"></LinearLayout>
+
+
+</LinearLayout>

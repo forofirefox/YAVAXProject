@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7000000"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/mini"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/back"
+                            android:backgroundTint="@color/blanco" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Nombre"
+                        android:paddingTop="6dp"
+                        android:paddingLeft="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blanco"
+                        android:textSize="15dp"
+                        android:text="Eduardo.GG"
+                        android:layout_weight="8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/Demostracion"
+                        android:paddingLeft="15dp"
+                        android:textStyle=""
+                        android:textColor="@color/GrisFuerte"
+                        android:textSize="15dp"
+                        android:text="Demostremos la diferencia"
+                        android:layout_weight="8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <android.support.v7.widget.CardView
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:background="#3f000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/unirse"
+                                android:text="Unirse"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:background="@drawable/btn_agregar_completo"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+                            <TextView
+                                android:textColor="@color/NegroBajo"
+                                android:paddingTop="10dp"
+                                android:textAlignment="center"
+                                android:text="Unidos"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+                            <TextView
+                                android:textStyle="bold"
+                                android:textSize="20dp"
+                                android:textColor="@color/blanco"
+                                android:textAlignment="center"
+                                android:text="50"
+                                android:id="@+id/CantidadPersonas"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+                            <TextView
+                                android:textColor="@color/NegroBajo"
+                                android:paddingTop="10dp"
+                                android:textAlignment="center"
+                                android:text="Maximo Personas"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp">
+                            <TextView
+                                android:textStyle="bold"
+                                android:id="@+id/Unidos"
+                                android:textSize="20dp"
+                                android:textColor="@color/blanco"
+                                android:textAlignment="center"
+                                android:text="50"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:id="@+id/Visto"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/fondo_perfil_foto">
+
+                            </ImageView>
+                            <android.support.v7.widget.CardView
+                                android:visibility="visible"
+                                android:id="@+id/circulo"
+                                android:layout_width="90dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="90dp">
+                                <com.android.volley.toolbox.NetworkImageView
+                                    android:scaleType="centerCrop"
+                                    android:id="@+id/Foto"
+                                    android:layout_width="90dp"
+                                    android:layout_height="90dp"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentStart="true" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+        <LinearLayout
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:background="#3f000000"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:layout_weight="0.7"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <com.android.volley.toolbox.NetworkImageView
+                                        android:scaleType="centerCrop"
+                                        android:id="@+id/ImagenCreador"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp" />
+                                    <LinearLayout
+                                        android:background="#47000000"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:layout_alignParentTop="true"
+                                        android:layout_alignParentStart="true"></LinearLayout>
+                                </RelativeLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:textColor="@color/NegroBajo"
+                                    android:id="@+id/NombreCreador"
+                                    android:paddingTop="10dp"
+                                    android:text="Nombre del lugar"
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp" />
+                                <TextView
+                                    android:textColor="@color/Negro"
+                                    android:textSize="18dp"
+                                    android:id="@+id/Termino"
+                                    android:text="Martes 24"
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                  <TextView
+                                      android:textColor="@color/Negro"
+                                      android:paddingTop="24dp"
+                                      android:textAlignment="center"
+                                      android:text="Creador"
+                                      android:layout_width="match_parent"
+                                      android:layout_height="match_parent" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:background="#000"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:textSize="19dp"
+                            android:paddingTop="6dp"
+                            android:textAlignment="center"
+                            android:enabled="false"
+                            android:textColor="@color/blanco"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:background="@color/Cazul"
+                            android:text="Participantes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    android:layout_weight="9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <RelativeLayout
+                        android:background="#3f000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="600dp">
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/Participantes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </android.support.v7.widget.RecyclerView>
+
+
+                        <RelativeLayout
+
+                            android:id="@+id/Error"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_marginTop="80dp"
+                                android:layout_centerHorizontal="true"
+                                android:text="No se encuentran Datos"
+                                android:textSize="20dp"
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp" />
+                            <TextView
+                                android:layout_marginTop="100dp"
+                                android:layout_centerHorizontal="true"
+                                android:text="Unete y se el primero"
+                                android:textSize="18dp"
+                                android:textAlignment="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp" />
+                            <ImageView
+                                android:backgroundTint="@color/Negro"
+                                android:background="@drawable/nodatos"
+                                android:layout_marginTop="135dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

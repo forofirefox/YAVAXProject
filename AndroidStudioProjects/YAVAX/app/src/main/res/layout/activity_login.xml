@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    tools:context="com.example.eduadogurrola.yavax.Login">
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:backgroundTint="@color/fondo"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/icono"
+                android:layout_centerHorizontal="true"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView" />
+
+            <RelativeLayout
+                android:id="@+id/Fondo"
+                android:gravity="center"
+                android:layout_width="81dp"
+                android:layout_height="81dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circulo_comp_blanco"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="84dp">
+
+
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/Imagen"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/IniciarSecion"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/blanco"
+                android:text="INICIAR SESIÓN"
+                android:background="@drawable/btn_login_completo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/Registrarte"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/blanco"
+                android:text="Registrarte"
+                android:background="@drawable/btn_registrarte_completo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
