@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YAVAX</string>
+    <string name="HasTuEvento">Listo para hacer tu evento</string>
+    <string name="QueNoTeQue">Que no te queden mal</string>
+    <string name="Inicia">¡Iniciala en grande no te quedaran\n contamos con una promocion para ti\n en el suo de nuestra aplicacion
+    por\nprimera vez, sabemos que no todos \nsabemos hacerlo bien\n pero esto es para ti.</string>
+    <string name="publico">Publico</string>
+    <string name="privado">Privado</string>
+    <string name="create">¡Crear!</string>
+    <string name="title_activity_ubicacion__grup">Map</string>
+
+</resources>

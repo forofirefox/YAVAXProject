@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#09AD78</color>
+    <color name="fondo">#09AD78</color>
+    <color name="colorAccent">#0CF9EE</color>
+    <color name="blanco">#fff</color>
+    <color name="gris">#767676</color>
+    <color name="NegroBajo">#494949</color>
+    <color name="GrisFuerte">#c2d9c8</color>
+    <color name="Negro">#000</color>
+    <color name="verde">#13c20d</color>
+
+    //colorcar
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="transparent">#00000000</color>
+
+    //colores fuerte
+
+
+    <color name="Rojo">#dc2326</color>
+    <color name="Azul">#72bee7</color>
+    <color name="Amarillo">#e4dd08</color>
+    <color name="Gris">#32000000</color>
+    //Colores claros//
+
+    <color name="Cverde">#5a40b921</color>
+    <color name="Cgris">#5a000000</color>
+    <color name="Cazul">#5a165cc6</color>
+    <color name="Crojo">#5abf0808</color>
+    <color name="Crosa">#5abf089a</color>
+    <color name="Camari">#5abfbc08</color>
+
+
+</resources>

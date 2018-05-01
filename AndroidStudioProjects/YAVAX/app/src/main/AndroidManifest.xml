@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eduadogurrola.yavax">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="screenSize|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden">
+        <activity
+            android:name=".Navegador"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity android:name=".Login">
+
+            <!-- Es el bueno -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarLogin.Logueo.Loguin" />
+        <activity android:name=".PerfilUsuario.perfil" >
+
+        </activity>
+        <activity
+            android:name=".CrearEvento.crearEvento"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CrearEvento.Ubicacion_Grup"
+            android:label="@string/title_activity_ubicacion__grup" />
+        <activity
+            android:name=".CrearEvento.Cover"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".CrearEvento.fechas_privacidad"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".CarLogin.Regisrtro.registro" />
+        <activity
+            android:name=".CrearEvento.Foto_evento"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="stateHidden" >
+
+        </activity>
+        <activity android:name=".CCamara.capturas" />
+        <activity android:name=".CCamara.Camara_vista"></activity>
+    </application>
+
+</manifest>
